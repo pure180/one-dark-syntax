@@ -1,5 +1,5 @@
 {
-  "name": "one-dark-syntax",
+  "name": "pure180-dark-syntax",
   "theme": "syntax",
   "version": "1.7.1",
   "description": "A dark syntax theme",
@@ -8,7 +8,7 @@
     "blue",
     "syntax"
   ],
-  "repository": "https://github.com/atom/one-dark-syntax",
+  "repository": "https://github.com/pure180/one-dark-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
