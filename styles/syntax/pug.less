@@ -1,0 +1,29 @@
+.syntax--jade,
+.syntax--pug {
+  &.syntax--source {
+    &.syntax--tag {
+      color: @hue-5;
+    }
+    .syntax--constant.syntax--attribute,
+    .syntax--entity.syntax--other.syntax--attribute-name {
+      color: @syntax-gutter-text-color;
+      &.syntax--id {
+        color: @hue-2;
+      }
+    }
+  }
+  .syntax--other,
+  .syntax--support {
+    &.syntax--property {
+      color: @syntax-text-color;
+    }
+  }
+
+  &.syntax--constant {
+
+    &.syntax--attribute {
+
+        color: @syntax-text-color;
+    }
+  }
+}
