@@ -8,7 +8,7 @@
     "blue",
     "syntax"
   ],
-  "repository": "https://github.com/pure180/one-dark-syntax",
+  "repository": "https://github.com/pure180/pure180-dark-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
