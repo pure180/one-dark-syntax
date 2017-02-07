@@ -22,7 +22,7 @@ atom-text-editor {
   }
 
   .bracket-matcher .region {
-    border-bottom: 1px solid @syntax-cursor-color;
+    border-color: @hue-4;
     box-sizing: border-box;
   }
 
@@ -54,7 +54,8 @@ atom-text-editor {
   }
 
   .gutter {
-
+    min-width: inherit;
+    
     .line-number {
       color: @syntax-gutter-text-color;
       -webkit-font-smoothing: antialiased;
@@ -64,7 +65,7 @@ atom-text-editor {
         background-color: @syntax-gutter-background-color-selected;
       }
       &.cursor-line-no-selection {
-        background-color: transparent;
+        background-color: rgba(100, 100, 100, 0.3);
       }
 
       .icon-right {
