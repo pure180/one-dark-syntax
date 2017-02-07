@@ -1,11 +1,10 @@
-## One Dark Syntax theme
+# Pure180 Dark Syntax theme
 
-![one-dark-syntax](https://cloud.githubusercontent.com/assets/378023/7783203/49271ef6-0174-11e5-8eb1-d80b8d34a0e3.png)
+A dark Syntax theme for Atom.
 
-> The font used in the screenshot is [Fira Mono](https://github.com/mozilla/Fira).
+This theme is a customized variant of the "One Dark Syntax theme" theme. When installed, it can be activated by going to
+the _Themes_ section in the Settings view (`cmd-,`) and selecting it from the
+_Syntax Theme_ drop-down menu.
+
 
 There is also a matching [UI theme](https://atom.io/themes/one-dark-ui).
-
-### Install
-
-This theme is installed by default with Atom and can be activated by going to the __Settings > Themes__ section and selecting it from the __Syntax Themes__ drop-down menu.
