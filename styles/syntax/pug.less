@@ -1,29 +1,49 @@
 .syntax--jade,
 .syntax--pug {
+  .syntax--string {
+    color: @syntax-text-color;
+  }
+
   &.syntax--source {
     &.syntax--tag {
       color: @hue-5;
     }
-    .syntax--constant.syntax--attribute,
-    .syntax--entity.syntax--other.syntax--attribute-name {
-      color: @syntax-gutter-text-color;
-      &.syntax--id {
-        color: @hue-2;
-      }
-    }
   }
-  .syntax--other,
-  .syntax--support {
-    &.syntax--property {
+
+  &.syntax--constant {
+    &.syntax--attribute {
       color: @syntax-text-color;
     }
   }
 
-  &.syntax--constant {
-
-    &.syntax--attribute {
-
-        color: @syntax-text-color;
+  .syntax--attribute {
+    .syntax--attribute-name {
+      color: @mono-1;
     }
+  }
+
+  .syntax--comment {
+    &.syntax--buffered {
+      color: @mono-2;
+    }
+
+    &.syntax--unbuffered {
+      color: @mono-3;
+    }
+  }
+
+  .syntax--entity.syntax--other.syntax--attribute-name {
+    color: @hue-6-2;
+  }
+  .syntax--quoted,
+  .syntax--string {
+    color: @hue-4;
+  }
+  .syntax--attributes,
+  .syntax--embedded {
+    .syntax--attribute-name {
+      color: @hue-6-2;
+    }
+
   }
 }
